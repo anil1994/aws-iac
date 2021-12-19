@@ -15,7 +15,7 @@ For cdk installation, I used free tier amazon linux ami server. My all installat
 ## There are three prerequirements for this cdk project as shown below.
 
 
-1- Install nodejs (Attention: larger than 16.3.0 version has not tested on the cdk yet)
+# 1- Install nodejs (Attention: larger than 16.3.0 version has not tested on the cdk yet)
 
 * https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
  You can change node version by running below command. For example, If you want to switch node version as 16.3.0,
@@ -30,7 +30,7 @@ $ npm install  aws-cdk@1.106.0
 ```
 If you want to use cdk v2, you shoud use npm install -g aws-cdk to download latest version.
 
-2- Install aws cli
+# 2- Install aws cli
 You can install by following this documentation according to your operating system.
 * https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 After aws cli installation, you can run command as shown below in order to adjust our aws account.
@@ -39,7 +39,7 @@ After aws cli installation, you can run command as shown below in order to adjus
 $ aws configure
 ```
 
-3- Install python >= 3.6
+# 3- Install python >= 3.6
 
 I used cdk v1 for this cdk project. If you want, you can use cdk v2. V2 is GA now. But two versions are  different from each other. You consider syntax changes and  version incompatible issue (between cdk and python) between two versions cdkv1 and cdkv2.     
 
