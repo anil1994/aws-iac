@@ -1,12 +1,10 @@
 from aws_cdk import (
-    Stack,
     aws_ecr as _ecr,
     aws_ecs as _ecs,
     aws_ec2 as _ec2,
     aws_ecs_patterns as _ecs_patterns,
     core
 )
-from constructs import Construct
 
 class ContainerStack(Stack):
 
