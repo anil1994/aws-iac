@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
-import aws_cdk as cdk
-
-from lambda.lambda_stack import LambdaStack
-from container.container_stack import ContainerStack
-
+from aws_cdk import core
+from lambda_stack.lambda_stack import LambdaStack
+from container_stack.container_stack import ContainerStack
 
 app = cdk.App()
 LambdaStack(app, "lambda")
