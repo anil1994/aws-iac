@@ -1,7 +1,4 @@
-from constructs import Construct
 from aws_cdk import (
-    Duration,
-    Stack,
     aws_iam as iam,
     aws_dynamodb as _dynamodb,
     aws_s3 as _s3,
