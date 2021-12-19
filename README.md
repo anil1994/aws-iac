@@ -12,7 +12,7 @@ I prepare aws environment by using cdk for my two projects. You can see my appli
 For cdk installation, I used free tier amazon linux ami server. My all installations as shown below step  are made on this server.
 
 
-## There are three prerequirements for this cdk proeject as shown below.
+## There are three prerequirements for this cdk project as shown below.
 
 
 1- Install nodejs (Attention: larger than 16.3.0 version has not tested on the cdk yet)
